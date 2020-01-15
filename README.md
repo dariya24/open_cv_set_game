@@ -23,5 +23,5 @@ Finally, we calculated the filling on the figure on the card. Our first ideas we
 
 There is no efficient algorithm for Detecting SET on the desk, that doesn't use if statements. So firstly, we decided to create all possible combinations from the cards that we have on the desk and then check if it is SET. The algorithm detects if the cards have all three different colors/the same color if the conditions of the SET game are met, and these cards are SET, it checks the number of figures and performs a validation of rules and then do the same with other characteristics of cards.
 
-###Results and evaluation.
+### Results and evaluation.
 We have tested it on several pictures having both sets and no sets, with different lighting and different picture quality and it works in most of the cases. The only problem we get is when the light is too smooth, so it is hard to distinguish between red and blue. Also when it is super bright, empty and filled with lines are being confused sometimes, but this algorithm is better than the one we’ve started with. So those are two things that need to be improved and we would work on if we had more time. 
